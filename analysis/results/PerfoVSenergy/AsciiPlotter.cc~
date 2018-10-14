@@ -1,0 +1,36 @@
+#include <iostream>
+
+void AsciiPlotter(){
+
+  ifstream DataFile("M100_10to200keV.txt");
+
+  float X[200];
+  float Data[200];
+  int Counter = 0;
+
+  while (DataFile >> X[Counter] >> Data[Counter]) Counter++;
+
+  TCanvas* TehCanvas = new TCanvas();
+  TGraph* TehGraph = new TGraph(Counter, X, Data);
+  TehGraph->SetTitle("");
+  TehGraph->GetXaxis()->SetTitle("Energy (keV)");
+  TehGraph->GetYaxis()->SetTitle("M_{100}");
+  TehGraph->GetXaxis()->CenterTitle();
+  TehGraph->GetYaxis()->CenterTitle();
+  TehGraph->GetYaxis()->SetRangeUser(0, 0.4);
+  TehGraph->SetMarkerStyle(8);
+  TehGraph->SetMarkerSize(0.7);
+
+  TBox* TehBox = new TBox(25, 0, 100, 0.4);
+  TehBox->SetFillColor(kBlue);
+  TehBox->SetFillStyle(3001);
+  //TehBox->SetFillColorAlpha(kBlue, 0.3);
+
+  TehCanvas->SetTicks(1, 1);
+
+  TehGraph->Draw("ap");
+  TehBox->Draw("same");
+
+  return;
+
+}

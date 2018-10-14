@@ -1,0 +1,313 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	4
+<table>
+Table1	27	16	2/19/15 1:10 PM
+geometry	0	0	955	683	
+header	9[X]	8[L]	MDP[Y]	M100[Y]	Crab 1hit[Y]	Crab 1hit rate[Y]	Crab 2hit[Y]	Crab 2hit rate[Y]	GammaBG 1hit[Y]	GammaBG 1hit rate[Y]	GammaBG 2hit[Y]	GammaBG 2hit rate[Y]	NeutronBG 1hit[Y]	NeutronBG 1hit rate[Y]	NeutronBG 2hit[Y]	NeutronBG 2hit rate[Y]
+ColWidth	100	107	138	65	65	115	72	122	100	120	100	119	114	116	100	118	
+<com>
+<col nr="2">
+4.29/col("M100")/col("Crab 2hit rate")*sqrt((col("Crab 2hit rate")+col("GammaBG 2hit rate")+col("NeutronBG 2hit rate"))/21600)
+</col>
+<col nr="3">
+col("M100")/100
+</col>
+<col nr="5">
+col("Crab 1hit")/7317
+</col>
+<col nr="7">
+col("Crab 2hit")/7317
+</col>
+<col nr="9">
+col("GammaBG 1hit")/3191.7
+</col>
+<col nr="11">
+col("GammaBG 2hit")/3191.7
+</col>
+<col nr="13">
+col("NeutronBG 1hit")/558.4
+</col>
+<col nr="15">
+col("NeutronBG 2hit")/558.4
+</col>
+</com>
+ColType	0;0/13	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Comments																	
+WindowLabel		2
+<data>
+0	1	Active Slow	0.2352170136129	0.2561	22861	3.124367910346	12171	1.663386633866	17002	5.326941755177	3442	1.078422157471	7172	12.84383954155	5049	9.041905444126
+1	2	Passive Slow	0.242150787384	0.2472	23061	3.151701517015	11955	1.633866338663	3819	1.196541028292	1586	0.4969138703512	6857	12.2797277937	5079	9.095630372493
+2	3	No Slow	0.1960578566163	0.2452	30133	4.118217848845	16088	2.198715320487	3542	1.109753422941	1602	0.5019268728264	8054	14.42335243553	5814	10.41189111748
+3	4	Aluminium 1mm	0.2400087423782	0.2371	25433	3.475878092114	13427	1.83504168375	3959	1.24040479995	2331	0.7303317981013	7716	13.81805157593	5714	10.23280802292
+4	5															
+5	6	Al1mm bigshield old ana							2676	0.8384246639722	1830	0.5733621580976	5204	9.319484240688	3731	6.68159025788
+6	7	Al1mm bigshield							4681	1.466616536642	2814	0.8816618103205	5353	9.586318051576	3920	7.02005730659
+7	8															
+8	9															
+9	10															
+10	11															
+11	12															
+12	13															
+13	14															
+14	15															
+15	16															
+16	17															
+17	18															
+18	19															
+19	20															
+20	21															
+21	22															
+22	23															
+23	24															
+24	25															
+25	26															
+26	27															
+</data>
+</table>
+<multiLayer>
+Graph1	1	1	2/19/15 5:28 PM
+geometry	955	0	533	458	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	515	395
+<PageGeometry>0.00952381	0.0121951	0.980952	0.963415</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	1	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	%(?X)	MDP		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+TitleFont	Sans Serif	11	75	0	0	0
+ScaleFont0	Sans Serif	9	75	0	0	0
+ScaleFont1	Sans Serif	9	75	0	0	0
+ScaleFont2	Sans Serif	9	75	0	0	0
+ScaleFont3	Sans Serif	9	75	0	0	0
+AxisFont0	Sans Serif	9	50	0	0	0
+AxisFont1	Sans Serif	9	50	0	0	0
+AxisFont2	Sans Serif	9	50	0	0	0
+AxisFont3	Sans Serif	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Table1_9	Table1_MDP	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	26	1
+scale	0	0.19	0.25	0	7	5	0	0
+scale	1	0.19	0.25	0	7	5	0	0
+scale	2	0.5	4.5	0	9	5	0	0
+scale	3	0.5	4.5	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	1;Table1_8	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Graph2	1	1	2/19/15 5:33 PM
+geometry	900	224	509	458	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	491	395
+<PageGeometry>0.00998004	0.0121951	0.98004	0.963415</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	1	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	%(?X)	1hit Rate (Hz)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+TitleFont	Sans Serif	11	75	0	0	0
+ScaleFont0	Sans Serif	9	75	0	0	0
+ScaleFont1	Sans Serif	9	75	0	0	0
+ScaleFont2	Sans Serif	9	75	0	0	0
+ScaleFont3	Sans Serif	9	75	0	0	0
+AxisFont0	Sans Serif	9	50	0	0	0
+AxisFont1	Sans Serif	9	50	0	0	0
+AxisFont2	Sans Serif	9	50	0	0	0
+AxisFont3	Sans Serif	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Table1_9	Table1_Crab 1hit rate	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	26	1
+curve	Table1_9	Table1_GammaBG 1hit rate	1	0	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	26	1
+curve	Table1_9	Table1_NeutronBG 1hit rate	1	0	#00ff00	0	1	7	3	#00ff00	#00ff00	0	#000000	14	1	2	0	0	26	1
+scale	0	0	16	0	9	5	0	0
+scale	1	0	16	0	9	5	0	0
+scale	2	0	8	0	9	5	0	0
+scale	3	0	8	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	1;Table1_8	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1.2972972972973</x>
+<y>33.385579937304</y>
+<right>2.62162162162162</right>
+<bottom>28.1191222570533</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+</Text>
+<Font>Sans Serif	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Graph3	1	1	2/19/15 5:38 PM
+geometry	1410	0	509	458	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	491	395
+<PageGeometry>0.00998004	0.0121951	0.98004	0.963415</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	1	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	%(?X)	2hit rate (Hz)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+TitleFont	Sans Serif	11	75	0	0	0
+ScaleFont0	Sans Serif	9	75	0	0	0
+ScaleFont1	Sans Serif	9	75	0	0	0
+ScaleFont2	Sans Serif	9	75	0	0	0
+ScaleFont3	Sans Serif	9	75	0	0	0
+AxisFont0	Sans Serif	9	50	0	0	0
+AxisFont1	Sans Serif	9	50	0	0	0
+AxisFont2	Sans Serif	9	50	0	0	0
+AxisFont3	Sans Serif	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Table1_9	Table1_Crab 2hit rate	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	26	1
+curve	Table1_9	Table1_GammaBG 2hit rate	1	0	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	26	1
+curve	Table1_9	Table1_NeutronBG 2hit rate	1	0	#00ff00	0	1	7	3	#00ff00	#00ff00	0	#000000	14	1	2	0	0	26	1
+scale	0	0	12	0	7	5	0	0
+scale	1	0	12	0	7	5	0	0
+scale	2	0	8	0	9	5	0	0
+scale	3	0	8	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	1;Table1_8	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1.3108108108108</x>
+<y>27.82131661442</y>
+<right>2.63513513513514</right>
+<bottom>23.4326018808777</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+</Text>
+<Font>Sans Serif	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>

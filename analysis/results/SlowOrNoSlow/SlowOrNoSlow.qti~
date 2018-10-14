@@ -1,0 +1,254 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	3
+<table>
+Table1	58	20	2/19/15 1:10 PM
+geometry	0	0	1916	607	active
+header	9[X]	Configuration[L]	MDP[Y]	M100[Y]	M100-err[Y]	Crab 1hit[Y]	Crab 1hit rate[Y]	Crab 2hit[Y]	Crab 2hit rate[Y]	10[Y]	GammaBG 1hit[Y]	GammaBG 1hit rate[Y]	GammaBG 2hit[Y]	GammaBG 2hit rate[Y]	11[Y]	NeutronBG 1hit[Y]	NeutronBG 1hit rate[Y]	NeutronBG 2hit[Y]	NeutronBG 2hit rate[Y]	12[Y]
+ColWidth	53	167	138	65	78	65	115	72	122	45	100	120	100	119	46	116	136	108	153	100	
+<com>
+<col nr="2">
+4.29/col("M100")/col("Crab 2hit rate")*sqrt((col("Crab 2hit rate")+col("GammaBG 2hit rate")+col("NeutronBG 2hit rate"))/21600)
+</col>
+<col nr="3">
+col("M100")/100
+</col>
+<col nr="6">
+col("Crab 1hit")/7317
+</col>
+<col nr="8">
+col("Crab 2hit")/7317
+</col>
+<col nr="11">
+col("GammaBG 1hit")/3191.7
+</col>
+<col nr="13">
+col("GammaBG 2hit")/3191.7
+</col>
+<col nr="16">
+col("NeutronBG 1hit")/558.4
+</col>
+<col nr="18">
+col("NeutronBG 2hit")/558.4
+</col>
+</com>
+ColType	0;0/13	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Comments																					
+WindowLabel		2
+<data>
+0	1	Active Slow	0.2352170136129	0.2561		22861	3.124367910346	12171	1.663386633866		17002	5.326941755177	3442	1.078422157471		7172	12.84383954155	5049	9.041905444126	
+1	2	Passive Slow	0.242150787384	0.2472		23061	3.151701517015	11955	1.633866338663		3819	1.196541028292	1586	0.4969138703512		6857	12.2797277937	5079	9.095630372493	
+2	3	No Slow	0.1960578566163	0.2452		30133	4.118217848845	16088	2.198715320487		3542	1.109753422941	1602	0.5019268728264		8054	14.42335243553	5814	10.41189111748	
+3	4	Aluminium 1mm	0.2400087423782	0.2371		25433	3.475878092114	13427	1.83504168375		3959	1.24040479995	2331	0.7303317981013		7716	13.81805157593	5714	10.23280802292	
+4	5	 																		
+5	6	Al1mm bigshield old ana									2676	0.8384246639722	1830	0.5733621580976		5204	9.319484240688	3731	6.68159025788	
+6	7	Al1mm bigshield									4681	1.466616536642	2814	0.8816618103205		5353	9.586318051576	3920	7.02005730659	
+7	8	 																		
+8	9	Wrong SAS gain																		
+9	10	Active Slow	0.2145900773255	0.276629		20395	2.787344540112	10084	1.378160448271		2023	0.6338315004543	753	0.2359244289877		4800	8.595988538682	3485	6.241045845272	
+10	11	Passive Slow	0.2642310607905	0.230594		20808	2.843788437884	10010	1.368047013803		1687	0.5285584484757	861	0.2697621956951		5101	9.135028653295	3639	6.516833810888	
+11	12	No Slow	0.2114849648822	0.233538		27148	3.710263769304	13331	1.821921552549		1674	0.5244853839647	876	0.2744618855156		6178	11.06375358166	4136	7.406876790831	
+12	13	Al 1mm	0.2747354615361	0.215137		23154	3.164411644116	11108	1.518108514418		2259	0.7077732869631	1388	0.434877964721		5877	10.52471346705	4186	7.496418338109	
+13	14	Cu 0.5mm	0.1845561031304	0.263206		27352	3.738144048107	12880	1.760284269509		1804	0.5652160290754	948	0.2970203966538		5046	9.036532951289	3643	6.52399713467	
+14	15	Cu 0.25mm	0.1737124209908	0.275588		27926	3.816591499248	13302	1.817958179582		1659	0.5197856941442	851	0.2666290691481		5187	9.289040114613	3800	6.805157593123	
+15	16	 																		
+16	17	Correct SAS gain																		
+17	18	Cu 0.25mm	0.1771814340806	0.272287		29522	4.03471368047	14581	1.992756594233		1944	0.6090798007332	998	0.3126860293887		6334	11.34312320917	4770	8.542263610315	
+18	19	 																		
+19	20	 																		
+20	21	No LL (PMT8 still dead)																		
+21	22	Active Slow	0.1599770296758	0.375922		24728	3.379527128605	9470	1.294246275796		2711	0.8493906068866	621	0.1945671585675		6072	10.87392550143	3139	5.621418338109	
+22	23	Passive Slow	0.166574541897	0.374665		25171	3.440071067377	9284	1.268826021594		2368	0.7419243663252	686	0.2149324811229		6488	11.61891117479	3281	5.875716332378	
+23	24	No Slow	0.1407967240588	0.354905		32964	4.505125051251	12656	1.72967063004		2495	0.7817150734718	674	0.2111727292665		7555	13.5297277937	3812	6.82664756447	
+24	25	Cu 0.5mm PbSn100um	0.1329257635387	0.387841		33347	4.557468908022	12130	1.657783244499		2793	0.8750822445719	642	0.2011467243162		7350	13.16260744986	3749	6.7138252149	
+25	26	 																		
+26	27	Al 1mm	0.1674992978534	0.354346		28886	3.947792811261	10719	1.464944649446		3817	1.195914402983	1758	0.5508036469593		7365	13.18946991404	3829	6.857091690544	
+27	28	Cu 0.5mm	0.1405839361882	0.387841		33050	4.516878502118	12083	1.651359846932		2661	0.8337249741517	720	0.2255851113826		7239	12.9638252149	4265	7.637893982808	
+28	29	Cu 0.25mm	0.1470948991772	0.363347		33851	4.626349596829	12466	1.703703703704		2488	0.7795218848889	649	0.2033399128991		7523	13.47242120344	4369	7.824140401146	
+29	30	Cu 0.25mm PbSn100um	0.1318809079688	0.37574		34126	4.663933306	12748	1.742244089108		2651	0.8305918476047	668	0.2092928533383		7655	13.70881088825	3795	6.796203438395	
+30	31	 																		
+31	32	PoGO2013 flight mean									2045	0.6407243788577	977	0.3061064636401						
+32	33	PoGO2013 flight 13th12h	0.1507263130905	0.255489	0.00339415	36926.1	5.046617466175	16557.4	2.26286729534		2045	0.6407243788577	977	0.3061064636401		5074	9.086676217765	3542	6.343123209169	
+33	34	PoGO2013 perfectveto, fastefficiency	0.1683733171922	0.260623	0.00393384	32354.8	4.421866885336	12309.5	1.682315156485		1790	0.5608296519096	756	0.2368643669518		4385	7.852793696275	2500	4.477077363897	
+34	35	PoGO2013 without ring4																		
+35	36	minus >300ADC ring4																		
+36	37	minus <300ADC ring4																		
+37	38	 																		
+38	39	pogo new light yield		0.221097	0.00305183	35210.7	4.812177121771	20739.9	2.834481344813											
+39	40	pogo new pdcs	0.09735932081319	0.381452	0.00330006	45127.5	6.167486674867	16423.5	2.244567445674		2241	0.7021336591785	609	0.1908074067112		5430	9.724212034384	3194	5.719914040115	
+40	41	 																		
+41	42	 																		
+42	43	new PDC No LL (PMT8 still dead)																		
+43	44	Active Slow (old light yield)	0.1201939331137	0.357104	0.00361286	42439.5	5.80012300123	13891.1	1.898469318027		2604	0.8158661528339	700	0.2193188582887		6172	11.05300859599	3169	5.675143266476	
+44	45	Passive Slow	0.09782333305351	0.386348	0.00330292	45558.8	6.226431597649	16257.3	2.221853218532		2241	0.7021336591785	609	0.1908074067112		5981	10.71095988539	3274	5.863180515759	
+45	46	No Slow	0.08202458172024	0.379455	0.00286884	59879.4	8.183599835998	21721.5	2.968634686347		2095	0.6563900115926	551	0.1726352727387		6740	12.07020057307	3841	6.878581661891	
+46	47	Cu 0.5mm PbSn100um	0.08117907586164	0.388905	0.00289429	60581.8	8.279595462621	21139.9	2.889148558152		2351	0.7365980511953	573	0.179528151142		6456	11.56160458453	3739	6.695916905444	
+47	48																			
+48	49																			
+49	50																			
+50	51																			
+51	52																			
+52	53																			
+53	54																			
+54	55																			
+55	56																			
+56	57																			
+57	58																			
+</data>
+</table>
+<multiLayer>
+Graph4	1	1	3/12/15 5:41 PM
+geometry	38	432	702	461	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	684	398
+<PageGeometry>0.00720461	0.0121065	0.985591	0.96368</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	1	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles		MDP (%)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+TitleFont	Sans Serif	11	75	0	0	0
+ScaleFont0	Sans Serif	9	75	0	0	0
+ScaleFont1	Sans Serif	9	75	0	0	0
+ScaleFont2	Sans Serif	9	75	0	0	0
+ScaleFont3	Sans Serif	9	75	0	0	0
+AxisFont0	Sans Serif	9	50	0	0	0
+AxisFont1	Sans Serif	9	50	0	0	0
+AxisFont2	Sans Serif	9	50	0	0	0
+AxisFont3	Sans Serif	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Table1_9	Table1_MDP	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	57	1
+scale	0	0.07	0.13	0	7	5	0	0
+scale	1	0.07	0.13	0	7	5	0	0
+scale	2	43.5	47.5	0	5	5	0	0
+scale	3	43.5	47.5	0	5	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	1;Table1_Configuration	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Graph3	1	1	3/18/15 11:11 AM
+geometry	762	454	701	461	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	682	398
+<PageGeometry>0.00721501	0.0121065	0.984127	0.96368</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	1	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles		2hit rate (Hz)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+TitleFont	Sans Serif	11	75	0	0	0
+ScaleFont0	Sans Serif	9	75	0	0	0
+ScaleFont1	Sans Serif	9	75	0	0	0
+ScaleFont2	Sans Serif	9	75	0	0	0
+ScaleFont3	Sans Serif	9	75	0	0	0
+AxisFont0	Sans Serif	9	50	0	0	0
+AxisFont1	Sans Serif	9	50	0	0	0
+AxisFont2	Sans Serif	9	50	0	0	0
+AxisFont3	Sans Serif	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Table1_9	Table1_NeutronBG 2hit rate	2	1	#00ff00	0	1	7	3	#00ff00	#00ff00	0	#000000	14	1	2	0	0	57	1
+curve	Table1_9	Table1_Crab 2hit rate	2	1	#0000ff	0	1	7	4	#0000ff	#0000ff	0	#000000	14	1	2	0	0	57	1
+curve	Table1_9	Table1_GammaBG 2hit rate	2	1	#00ffff	0	1	7	5	#00ffff	#00ffff	0	#000000	14	1	2	0	0	57	1
+scale	0	0	8	0	5	5	0	0
+scale	1	0	8	0	5	5	0	0
+scale	2	43.5	47.5	0	5	5	0	0
+scale	3	43.5	47.5	0	5	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	1;Table1_Configuration	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>45.826594090202</x>
+<y>5.5505617977528</y>
+<right>47.0458786936236</right>
+<bottom>4.29213483146067</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+</Text>
+<Font>Sans Serif	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>

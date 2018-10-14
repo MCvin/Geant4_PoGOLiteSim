@@ -1,0 +1,9 @@
+  // source shielding
+      G4RotationMatrix* xRot1 = new G4RotationMatrix();
+      xRot1->rotateX(1.*deg);
+  const G4String SrcShieldName = "SrcShield";
+  G4Tubs* s_SrcShield = new G4Tubs(SrcShieldName, 0.1*cm, 2.*cm, 3.75*cm, 0.*deg, 360.*deg);
+  G4LogicalVolume* l_SrcShield = new G4LogicalVolume(s_SrcShield, Pb, SrcShieldName);
+  G4VPhysicalVolume* p_SrcShield = new G4PVPlacement(xRot1, G4ThreeVector(0.*cm,0.*cm,112.3*cm),
+                                                     l_SrcShield, SrcShieldName, l_Pogo, false, 0);
+

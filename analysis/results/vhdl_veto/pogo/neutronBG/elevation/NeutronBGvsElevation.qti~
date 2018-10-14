@@ -1,0 +1,94 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Table1	30	7	5/19/15 10:13 AM
+geometry	0	0	1527	408	
+header	1[X]	M100[Y]	M100-err[Y]	n2hit[Y]	2hit rate[Y]	n1hit[Y]	1hit rate[Y]
+ColWidth	100	100	100	100	119	100	132	
+<com>
+<col nr="4">
+col("n2hit")/558.4
+</col>
+<col nr="6">
+col("n1hit")/558.4
+</col>
+</com>
+ColType	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0
+Comments								
+WindowLabel		2
+<data>
+0	Neutron 0deg	0.0426903	0.024308	3487	6.244627507163	4794	8.585243553009
+1	Neutron 20deg	0.0377602	0.0243344	3495	6.258954154728	5155	9.231733524355
+2	Neutron 40deg	0.0472737	0.0239543	3542	6.343123209169	5074	9.086676217765
+3	Neutron 60deg	0.0272699	0.0239868	3534	6.328796561605	4852	8.689111747851
+4	Neutron 80deg	0.0578901	0.0249408	3324	5.952722063037	4733	8.47600286533
+</data>
+</table>
+<multiLayer>
+Graph1	1	1	5/19/15 11:32 AM
+geometry	423	204	1122	457	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	1099	394
+<PageGeometry>0.00448833	0.0122249	0.986535	0.963325</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles		M100			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	0
+TitleFont	Sans Serif	11	75	0	0	0
+ScaleFont0	Sans Serif	9	75	0	0	0
+ScaleFont1	Sans Serif	9	75	0	0	0
+ScaleFont2	Sans Serif	9	75	0	0	0
+ScaleFont3	Sans Serif	9	75	0	0	0
+AxisFont0	Sans Serif	9	50	0	0	0
+AxisFont1	Sans Serif	9	50	0	0	0
+AxisFont2	Sans Serif	9	50	0	0	0
+AxisFont3	Sans Serif	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Table1_1	Table1_M100	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	Table1_1	Table1_M100	Table1_M100-err	1	8	#000000	1	1	1	0
+scale	0	0	0.1	0	11	5	0	0
+scale	1	0	0.1	0	11	5	0	0
+scale	2	0	6	0	7	5	0	0
+scale	3	0	6	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	1;Table1_1	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>

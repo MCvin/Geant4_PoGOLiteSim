@@ -1,0 +1,10 @@
+/vis/open OGL 1000x400-0+0
+/vis/drawVolume
+/vis/viewer/addCutawayPlane 0 0 23 cm -1 0 0
+/vis/viewer/set/viewpointThetaPhi 90 0
+/vis/viewer/zoomTo 5
+
+/PrimaryGenerator/file ../scattered_Am241.dat
+
+# run this when in the OGL window
+#/control/loop ../scatterpiecerotation.mac step 0. 360. 1

@@ -1,0 +1,15 @@
+/random/setSeeds 122 223
+
+/gps/particle gamma
+/gps/pos/type Plane
+/gps/pos/shape Circle
+
+# radioactive source
+/gps/pos/centre 0. 0. 116.5 cm        # 5cm above the slow, unit 0
+/gps/pos/radius 0.11 cm
+/gps/ang/type iso
+/gps/ang/maxtheta 4.00 deg  # opening angle of the central unit
+
+/gps/ene/mono 59.5 keV
+
+/run/beamOn 10000000

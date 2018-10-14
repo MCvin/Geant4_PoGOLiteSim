@@ -1,0 +1,6 @@
+/random/setSeeds 130 222
+/PrimaryGenerator/file ../ScatteredAm241_2012.dat
+#/PrimaryGenerator/file ../ScatteredAm241_2013.dat
+#/PrimaryGenerator/file ../ScatteredAm241_2015.dat
+/control/loop ../scripts/scatterpiecerotation.mac step 0. 360. 0.1
+#/run/beamOn 100 # for visualisation

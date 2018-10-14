@@ -1,0 +1,228 @@
+Completion: 0 % Completion: 0 % Completion: 1 % Completion: 2 % Completion: 3 % Completion: 4 % Completion: 5 % Completion: 6 % Completion: 7 % Completion: 9 % Completion: 9 % Completion: 10 % Completion: 11 % Completion: 12 % Completion: 13 % Completion: 14 % Completion: 15 % Completion: 16 % Completion: 18 % Completion: 18 % Completion: 19 % Completion: 20 % Completion: 21 % Completion: 22 % Completion: 23 % Completion: 24 % Completion: 25 % Completion: 26 % Completion: 27 % Completion: 29 % Completion: 29 % Completion: 30 % Completion: 31 % Completion: 32 % Completion: 33 % Completion: 34 % Completion: 36 % Completion: 36 % Completion: 37 % Completion: 38 % Completion: 39 % Completion: 40 % Completion: 41 % Completion: 42 % Completion: 43 % Completion: 44 % Completion: 45 % Completion: 46 % Completion: 47 % Completion: 48 % Completion: 49 % Completion: 51 % Completion: 51 % Completion: 52 % Completion: 53 % Completion: 54 % Completion: 55 % Completion: 56 % Completion: 58 % Completion: 58 % Completion: 59 % Completion: 60 % Completion: 61 % Completion: 62 % Completion: 63 % Completion: 65 % Completion: 65 % Completion: 66 % Completion: 67 % Completion: 68 % Completion: 69 % Completion: 70 % Completion: 72 % Completion: 72 % Completion: 73 % Completion: 74 % Completion: 75 % Completion: 76 % Completion: 77 % Completion: 79 % Completion: 79 % Completion: 80 % Completion: 81 % Completion: 82 % Completion: 83 % Completion: 84 % Completion: 85 % Completion: 86 % Completion: 87 % Completion: 88 % Completion: 89 % Completion: 90 % Completion: 91 % Completion: 92 % Completion: 93 % Completion: 94 % Completion: 95 % Completion: 96 % Completion: 97 % Completion: 98 % Completion: 99 % Error in <RootX11IOErrorHandler>: fatal X11 error (connection to server lost?!)
+
+**** Save data and exit application ****
+
+Analysing fast length = 50 
+Analysing fast length = 80 
+Analysing fast length = 50 
+Analysing fast length = 80 
+Analysing fast length = 110 
+Analysing fast length = 140 
+Analysing fast length = 170 
+Analysing fast length = 200 
+Analysing fast length = 50 
+Error in <TFile::TFile>: file /home/sphinx/g4data/PoGOLite+Cu0.5mmPbSn100um/fastlength/polyDefault/gammas/G4dataGammaBGFast50mm.root does not exist
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f4c75a1746a in __libc_waitpid (pid=15781, stat_loc=stat_loc
+entry=0x7fff2380b300, options=options
+entry=0) at ../sysdeps/unix/sysv/linux/waitpid.c:31
+#1  0x00007f4c7599bfae in do_system (line=0x2881430 "/etc/root/gdb-backtrace.sh 15768 1>&2") at ../sysdeps/posix/system.c:148
+#2  0x00007f4c77df3cd3 in TUnixSystem::StackTrace() () from /usr/lib/x86_64-linux-gnu/libCore.so.5.34
+#3  0x00007f4c77df599c in TUnixSystem::DispatchSignals(ESignals) () from /usr/lib/x86_64-linux-gnu/libCore.so.5.34
+#4  <signal handler called>
+#5  0x000000000040cf6b in G4data::SetAddress(TTree*) ()
+#6  0x00000000004041f5 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x000000000040cf6b in G4data::SetAddress(TTree*) ()
+#6  0x00000000004041f5 in main ()
+===========================================================
+
+
+Analysing fast length = 80 
+Error in <TFile::TFile>: file /home/sphinx/g4data/PoGOLite+Cu0.5mmPbSn100um/fastlength/polyDefault/gammas/G4dataGammaBGFast80mm.root does not exist
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f759363446a in __libc_waitpid (pid=15842, stat_loc=stat_loc
+entry=0x7ffff0ebedc0, options=options
+entry=0) at ../sysdeps/unix/sysv/linux/waitpid.c:31
+#1  0x00007f75935b8fae in do_system (line=0x15d1370 "/etc/root/gdb-backtrace.sh 15829 1>&2") at ../sysdeps/posix/system.c:148
+#2  0x00007f7595a10cd3 in TUnixSystem::StackTrace() () from /usr/lib/x86_64-linux-gnu/libCore.so.5.34
+#3  0x00007f7595a1299c in TUnixSystem::DispatchSignals(ESignals) () from /usr/lib/x86_64-linux-gnu/libCore.so.5.34
+#4  <signal handler called>
+#5  0x000000000040cf6b in G4data::SetAddress(TTree*) ()
+#6  0x00000000004041f5 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x000000000040cf6b in G4data::SetAddress(TTree*) ()
+#6  0x00000000004041f5 in main ()
+===========================================================
+
+
+Analysing fast length = 110 
+Error in <TFile::TFile>: file /home/sphinx/g4data/PoGOLite+Cu0.5mmPbSn100um/fastlength/polyDefault/gammas/G4dataGammaBGFast110mm.root does not exist
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f7aaf93f46a in __libc_waitpid (pid=15904, stat_loc=stat_loc
+entry=0x7fff7b603940, options=options
+entry=0) at ../sysdeps/unix/sysv/linux/waitpid.c:31
+#1  0x00007f7aaf8c3fae in do_system (line=0x1e1a370 "/etc/root/gdb-backtrace.sh 15891 1>&2") at ../sysdeps/posix/system.c:148
+#2  0x00007f7ab1d1bcd3 in TUnixSystem::StackTrace() () from /usr/lib/x86_64-linux-gnu/libCore.so.5.34
+#3  0x00007f7ab1d1d99c in TUnixSystem::DispatchSignals(ESignals) () from /usr/lib/x86_64-linux-gnu/libCore.so.5.34
+#4  <signal handler called>
+#5  0x000000000040cf6b in G4data::SetAddress(TTree*) ()
+#6  0x00000000004041f5 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x000000000040cf6b in G4data::SetAddress(TTree*) ()
+#6  0x00000000004041f5 in main ()
+===========================================================
+
+
+Analysing fast length = 140 
+Error in <TFile::TFile>: file /home/sphinx/g4data/PoGOLite+Cu0.5mmPbSn100um/fastlength/polyDefault/gammas/G4dataGammaBGFast140mm.root does not exist
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f1c1494746a in __libc_waitpid (pid=15963, stat_loc=stat_loc
+entry=0x7fff9bb95580, options=options
+entry=0) at ../sysdeps/unix/sysv/linux/waitpid.c:31
+#1  0x00007f1c148cbfae in do_system (line=0x2ad6370 "/etc/root/gdb-backtrace.sh 15950 1>&2") at ../sysdeps/posix/system.c:148
+#2  0x00007f1c16d23cd3 in TUnixSystem::StackTrace() () from /usr/lib/x86_64-linux-gnu/libCore.so.5.34
+#3  0x00007f1c16d2599c in TUnixSystem::DispatchSignals(ESignals) () from /usr/lib/x86_64-linux-gnu/libCore.so.5.34
+#4  <signal handler called>
+#5  0x000000000040cf6b in G4data::SetAddress(TTree*) ()
+#6  0x00000000004041f5 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x000000000040cf6b in G4data::SetAddress(TTree*) ()
+#6  0x00000000004041f5 in main ()
+===========================================================
+
+
+Analysing fast length = 170 
+Error in <TFile::TFile>: file /home/sphinx/g4data/PoGOLite+Cu0.5mmPbSn100um/fastlength/polyDefault/gammas/G4dataGammaBGFast170mm.root does not exist
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f84a0fc546a in __libc_waitpid (pid=16022, stat_loc=stat_loc
+entry=0x7fffa8f1b780, options=options
+entry=0) at ../sysdeps/unix/sysv/linux/waitpid.c:31
+#1  0x00007f84a0f49fae in do_system (line=0x11f4430 "/etc/root/gdb-backtrace.sh 16009 1>&2") at ../sysdeps/posix/system.c:148
+#2  0x00007f84a33a1cd3 in TUnixSystem::StackTrace() () from /usr/lib/x86_64-linux-gnu/libCore.so.5.34
+#3  0x00007f84a33a399c in TUnixSystem::DispatchSignals(ESignals) () from /usr/lib/x86_64-linux-gnu/libCore.so.5.34
+#4  <signal handler called>
+#5  0x000000000040cf6b in G4data::SetAddress(TTree*) ()
+#6  0x00000000004041f5 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x000000000040cf6b in G4data::SetAddress(TTree*) ()
+#6  0x00000000004041f5 in main ()
+===========================================================
+
+
+Analysing fast length = 200 
+Error in <TFile::TFile>: file /home/sphinx/g4data/PoGOLite+Cu0.5mmPbSn100um/fastlength/polyDefault/gammas/G4dataGammaBGFast200mm.root does not exist
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f3ac5d9546a in __libc_waitpid (pid=16084, stat_loc=stat_loc
+entry=0x7ffff175b780, options=options
+entry=0) at ../sysdeps/unix/sysv/linux/waitpid.c:31
+#1  0x00007f3ac5d19fae in do_system (line=0x15b2370 "/etc/root/gdb-backtrace.sh 16071 1>&2") at ../sysdeps/posix/system.c:148
+#2  0x00007f3ac8171cd3 in TUnixSystem::StackTrace() () from /usr/lib/x86_64-linux-gnu/libCore.so.5.34
+#3  0x00007f3ac817399c in TUnixSystem::DispatchSignals(ESignals) () from /usr/lib/x86_64-linux-gnu/libCore.so.5.34
+#4  <signal handler called>
+#5  0x000000000040cf6b in G4data::SetAddress(TTree*) ()
+#6  0x00000000004041f5 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x000000000040cf6b in G4data::SetAddress(TTree*) ()
+#6  0x00000000004041f5 in main ()
+===========================================================
+
+
+Analysing fast length = 50 
+Analysing fast length = 80 
+Analysing fast length = 110 
+Analysing fast length = 140 
+Analysing fast length = 170 
+Analysing fast length = 200 
+Analysing fast length = 50 
+Analysing fast length = 80 
+Analysing fast length = 110 
+Analysing fast length = 140 
+Analysing fast length = 170 
+Analysing fast length = 200 
